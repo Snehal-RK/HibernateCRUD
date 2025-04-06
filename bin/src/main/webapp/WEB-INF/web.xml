@@ -1,0 +1,29 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HibernateDAOHandler</servlet-name>
+  	<display-name>HibernateDAOHandler</display-name>
+  	<description></description>
+  	<servlet-class>requestHandler.HibernateDAOHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HibernateDAOHandler</servlet-name>
+  	<url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HibernateDAOHandler</servlet-name>
+  	<url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HibernateDAOHandler</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HibernateDAOHandler</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+</web-app>

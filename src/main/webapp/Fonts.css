@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+@font-face{
+	font-family: "aqua";
+	src: url(FontFamily/aqua.ttf);
+}
+
+@font-face{
+	font-family: "barlowMedium";
+	src: url(FontFamily/Barlow-Medium.ttf);
+}
+
+@font-face{
+	font-family: "latoRegular";
+	src: url(FontFamily/Lato-Regular.ttf);
+}
+
+@font-face{
+	font-family: "rubikMedium";
+	src: url(FontFamily/Rubik-Medium.ttf);
+}
+
+@font-face{
+	font-family: "titliumRegular";
+	src: url(FontFamily/Titillium-Regular.otf);
+}
+
+
+
+
